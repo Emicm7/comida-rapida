@@ -1,0 +1,11 @@
+[
+    {"tipo": "LOMO COMPLETO", "precio": 1200 },
+    {"tipo": "LOMO ESPECIAL", "precio": 1000 },
+    {"tipo": "LOMO PROVOLONE", "precio": 1500 },
+    {"tipo": "LOMO VEGETARIANO", "precio": 800 },
+    {"tipo": "PAPAS COMUN", "precio": 100 },
+    {"tipo": "PAPAS CHEDAR", "precio": 150 },
+    {"tipo": "PAPAS PROVENZAL", "precio": 200 },
+    {"tipo": "BEBIDA", "precio": 150 }
+]
+

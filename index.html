@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lomoteca Emiliano's</title>
+		<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+		<script src="lomoteca.js"></script>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div id="titulos">
+
+		</div>
+		
+
+		
+		<img src="" alt="" >	
+		<div id="pedido">
+			<button id="boton">VER PRECIOS</button>
+		</div>
+		<ul id=lista> </ul>
+		<div id="pedidoDos" >
+			<button id='botonDos'>OCULTAR PRECIOS</button>
+		</div> 
+		<div>
+			<form id="formularioUno">
+				<label for="datos" style="color: indigo"><h2>Datos Personales de Envio</h2></label>
+				<hr>
+				<label for="nombre"><b>Nombre:</b></label>
+				<input type="text" name="nombre" id="nombre">
+				<br>
+				<label for="edad"><b>Edad:</b></label>
+				<input type="text" name="edad" id="edad">
+				<br>
+				<label for="direccion"><b>Direccion:</b></label>
+				<input type="text" name="Direccion" id="direccion">
+			</form>
+		</div>
+	    
+		
+			<form id="formulario">
+				
+				<label for="lomo" style="color: indigo"><h2>Que Lomo desea?</h2></label>
+				<hr>
+				<label for="">Lomos</label>
+				<select name="lomo" id="lomo" style="display: block;">
+					<option value="COMPLETO">Completo</option>
+					<option value="ESPECIAL">Especial</option>
+					<option value="PROVOLONE">Provolone</option>
+					<option value="VEGETARIANO">Vegetariano</option>
+				</select>
+				<label for="">Papas</label>
+				<select name="papa" id="papa" style="display: block;">
+					<option value="no">No</option>
+					<option value="comun">Comun</option>
+					<option value="chedar">Chedar</option>
+					<option value="provenzal">Provenzal</option>
+				</select>
+				<label for="">Bebida</label>
+				<select name="bebida" id="bebida" style="display: block;">
+					<option value="no">No</option>
+					<option value="coca cola">Coca cola</option>
+					<option value="sprite">Sprite</option>
+					<option value="fanta">Fanta</option>
+				</select>
+				<br>
+				<input type="submit" value="Enviar Pedido">
+			</form>
+		
+	</body>
+</html>

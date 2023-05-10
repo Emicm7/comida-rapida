@@ -1,0 +1,28 @@
+div{
+    color: red;
+}
+
+h1{
+    color:blue;
+}
+
+#pedidoDos{
+    display: none;
+}
+
+b{
+    color: black;
+}
+
+#lista{
+    display: block;
+}
+
+li{
+    color: orangered;
+}
+
+label{
+    color: black;
+}
+
